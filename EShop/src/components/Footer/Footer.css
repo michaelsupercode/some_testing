@@ -1,0 +1,65 @@
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 70px;
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	border-radius: 32px 32px 0px 0px;
+	width: 100%;
+	margin-top: auto;
+	box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.05);
+}
+footer .svg-wrapper svg {
+	fill: var(--gray-04, #b9c1cc);
+}
+
+footer .svg-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 73px;
+	height: 44px;
+	border-radius: 26px;
+	position: relative;
+}
+
+footer .active .svg-wrapper {
+	background-color: #364ed41a;
+}
+
+footer .active .svg-wrapper svg {
+	fill: var(--blue, #364fd4);
+}
+footer .active .svg-wrapper .heart {
+	stroke: var(--blue, #364fd4);
+}
+
+.heart {
+	stroke: var(--gray-04, #b9c1cc);
+}
+
+.note {
+	position: absolute;
+	background-color: var(--blue, #364fd4);
+	border-radius: 100%;
+	min-height: 20px;
+	min-width: 20px;
+	bottom: calc(50% - 20px);
+	right: calc(50% - 20px);
+	color: var(--white, #fff);
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	padding: 4px;
+	transform: scale(0.7);
+}
+
+@media screen and (min-width: 1440px) {
+	footer {
+		min-height: 8vh;
+		border-radius: 24px 24px 0px 0px;
+	}
+}

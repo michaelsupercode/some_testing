@@ -1,0 +1,35 @@
+[
+        {
+            "firstname": "Max",
+            "lastname": "Mustermann",
+            "id": 1,
+            "username": "Mäxchen Musti",
+            "email": "maxmustermann@maxmustermann.de",
+            "password": "maxmueller123",
+            "birthday": 0,
+            "cart": [],
+            "fav": []
+        },
+        {
+            "firstname": "Rudolf",
+            "lastname": "Mustermann",
+            "id": 2,
+            "username": "Super Apfelstudelcode",
+            "email": "supercode@supercode.de",
+            "password": "1234",
+            "birthday": 0,
+            "cart": [],
+            "fav": []
+        },
+        {
+            "firstname": "Admin",
+            "lastname": "",
+            "id": 3,
+            "username": "Admin",
+            "email": "admin@admin.de",
+            "password": "admin123",
+            "birthday": 0,
+            "cart": [],
+            "fav": []
+        }
+]  
