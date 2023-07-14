@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Secret</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#"><img id="logo" src="assets/img/eye.png" alt="logo-eye" /></a>
+      <nav>
+        <ul>
+          <li id="welcome-name">welcome, user</li>
+          <li><a id="logout" href="#">log out</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="left-box">
+          <img src="assets/img/Illustration.png" alt="misterious-man" />
+        </div>
+        <div class="right-box">
+          <div>
+            <h1>TOP SECRET</h1>
+            <p>You may not click the button.</p>
+            <div id="button-cont">
+              <button id="secret-btn">>SECRET CONTENT</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal">
+        <form action="#">
+          <h1>> LOGIN</h1>
+          <input type="text" name="username" id="user" placeholder="username" />
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+          />
+          <br />
+          <button id="subm-btn">login</button>
+          <p id="note"></p>
+        </form>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
