@@ -1,0 +1,4 @@
+- useParams => reactrouterdom
+- komplexe fetches
+- lila lambo
+- props und states weiterreichen
