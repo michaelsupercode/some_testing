@@ -30,7 +30,7 @@ main {
 main h1,
 main h3,
 footer button {
-  opacity: 0.6;
+  opacity: .9;
 }
 
 main h1 {
@@ -44,7 +44,8 @@ main h2 {
 }
 
 main h3 {
-  font-weight: 400;
+  color: black;
+  font-weight: 600;
 }
 
 footer button {
