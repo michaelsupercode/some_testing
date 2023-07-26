@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: url(../img/background.jpeg) no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Roboto";
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
+
+header {
+  color: #565c73;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+}
+
+header span {
+  background: hsl(214, 17%, 60%);
+}
+
+main {
+  color: #586b85;
+}
+
+main h1,
+main h3,
+footer button {
+  opacity: 0.6;
+}
+
+main h1 {
+  font-size: 15em;
+  margin: 1.2em 0 0 0;
+}
+
+main h2 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 400;
+}
+
+footer button {
+  background: none;
+  color: gray;
+  opacity: 0.4;
+  text-transform: uppercase;
+  border: 1px solid gray;
+  border-radius: 0.3em;
+  padding: 0.8em 1.2em;
+  margin: 15em 0 0 0;
+}
+
+footer button:hover {
+  background: #6d8ab383;
+  border: 1px solid #6d8ab383;
+}
