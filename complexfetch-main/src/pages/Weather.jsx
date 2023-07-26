@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { _, useState } from "react"
 
 const Weather = () => {
 
