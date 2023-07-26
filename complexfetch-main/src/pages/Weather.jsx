@@ -1,10 +1,10 @@
-import { _, useState } from "react"
+import { useState } from "react"
 
 const Weather = () => {
 
     const [city, setCity] = useState('')
     const [weather, setWeather] = useState(null)
-    const key = '15e3a811be69f8c3af5550b02ba088d7'
+    // const key = 'keyInHere'
     const limit = 1
 
     const checkWeather = () => {
@@ -26,7 +26,7 @@ const Weather = () => {
                 <button onClick={checkWeather}>aktuelle Temperatur</button>
             </div>
             {weather &&
-                <h1>{weather.main.temp}</h1>
+                <h6>{weather.main.temp}</h6>
             }
         </main>
     )

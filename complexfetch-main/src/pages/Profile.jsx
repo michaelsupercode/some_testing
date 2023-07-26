@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom"
 
 const Profile = () => {
-    const { dragonball } = useParams()
+    const { frosch } = useParams()
 
     return (
         <main>
-            <h3>Hallo {dragonball} ❤️</h3>
+            <h3>Hallo {frosch} 😎</h3>
         </main>
     )
 }
