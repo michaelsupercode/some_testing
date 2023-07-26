@@ -4,7 +4,7 @@ const Weather = () => {
 
     const [city, setCity] = useState('')
     const [weather, setWeather] = useState(null)
-    const key = 'b01be5d6c508d88ad91fba3144fc898d'
+    const key = '15e3a811be69f8c3af5550b02ba088d7'
     const limit = 1
 
     const checkWeather = () => {
@@ -22,8 +22,8 @@ const Weather = () => {
     return (
         <main>
             <div>
-                <input type={'text'} placeholder='Dein Block' onChange={(e) => setCity(e.target.value)} />
-                <button onClick={checkWeather}>Check dein Klima</button>
+                <input type={'text'} placeholder='Stadt' onChange={(e) => setCity(e.target.value)} />
+                <button onClick={checkWeather}>aktuelle Temperatur</button>
             </div>
             {weather &&
                 <h1>{weather.main.temp}</h1>
