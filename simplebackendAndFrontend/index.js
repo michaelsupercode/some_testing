@@ -29,7 +29,7 @@ app.post("/createProfile",
 )
 
 app.get("/dasBildVonGeradeEben", (_, res) => {
-    res.sendFile(__dirname + "/uploads/6495a1c89b55acc9e972b0c1d9714ebb")
+    res.sendFile(__dirname + "/uploads/90085a2b12b7cb7c28c4e0c6999c904e")
 })
 
 app.listen(PORT, () => console.log("Server listening on Port", PORT))
