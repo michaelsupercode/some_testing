@@ -23,7 +23,7 @@ export default function ContactForm(props) {
             },
             body: JSON.stringify(newguest)
         }).then(() => {
-            props.refresh(prev => !prev)
+            props.refresh (prev => !prev)
             vornameRef.current.value = ""
             nachnameRef.current.value = ""
             emailRef.current.value = ""
@@ -33,12 +33,11 @@ export default function ContactForm(props) {
     }
     return (
         <div className="contact-form">
-            <input ref={vornameRef} type="text" placeholder="Vorname" />
-            <input ref={nachnameRef} type="text" placeholder="Nachname" />
-            <input ref={emailRef} type="email" placeholder="E-Mail" />
-            <textarea ref={nachrichtRef} name="nachricht" id="" cols="30" rows="5" placeholder="Nachricht"></textarea>
-            {/* <input ref={nachrichtRef} type="textarea" placeholder="Nachricht" /> */}
-            <button onClick={senden}>Abschicken</button>
+            <input ref={vornameRef} type="text" placeholder="first" />
+            <input ref={nachnameRef} type="text" placeholder="last" />
+            <input ref={emailRef} type="email" placeholder="eMail" />
+            <textarea ref={nachrichtRef} name="nachricht" id="" cols="30" rows="5" placeholder="message"></textarea>
+            <button onClick={senden}>..send..</button>
         </div>
     )
 }

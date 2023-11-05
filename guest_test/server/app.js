@@ -28,9 +28,6 @@ if (fs.existsSync(contacts)) {
     res.send("<h6>..it works so entirely fuckin well..:</h6>")
 })
 
-
-// neue Einträge posten  
-
 app.post('/api/guests', async (req, res) => {  
     const guest = req.body
     guests.push(guest)
@@ -44,9 +41,6 @@ app.post('/api/guests', async (req, res) => {
         res.status(500).json({ error: "Serverfehler" })
     }
 })
-
-
-// alle Einträge anzeigen lassen
 
 app.get('/api/guests', async (_, res) => {
     try {

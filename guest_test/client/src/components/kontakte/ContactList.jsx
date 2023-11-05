@@ -18,11 +18,10 @@ export default function ContactList() {
     }, [refresh])
     return (
         <>
-            <h1>Meine Gäste</h1>
+            <h1>GuestBook Entries</h1>
             <ContactForm refresh={setRefresh} />
             {guests.map((item, key) => <ContactItem guest={item} key={key} />)}
         </>
-
 
     )
 } 
