@@ -1,0 +1,20 @@
+[
+  {
+    "vorname": "lauri",
+    "nachname": "",
+    "email": "lauri@super-code.de",
+    "nachricht": "hallo\n"
+  },
+  {
+    "vorname": "brigitte",
+    "nachname": "",
+    "email": "biggi@gitte.de",
+    "nachricht": "servus"
+  },
+  {
+    "vorname": "harald",
+    "nachname": "",
+    "email": "harry@ich.de",
+    "nachricht": "moini"
+  }
+]
