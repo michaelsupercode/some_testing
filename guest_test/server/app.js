@@ -24,6 +24,10 @@ if (fs.existsSync(contacts)) {
     })();
   }
   
+  app.get("/", (_, res) => {
+    res.send("<h6>..it works so entirely fuckin well..:</h6>")
+})
+
 
 // neue Einträge posten  
 
