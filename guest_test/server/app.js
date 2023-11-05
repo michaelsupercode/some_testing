@@ -59,4 +59,4 @@ app.get('/api/guests', async (_, res) => {
       }})
 
 
-app.listen(PORT, () => console.log("Ich stehe vor der Tür:", PORT))
+app.listen(PORT, () => console.log("i'm naked outside:", PORT))
