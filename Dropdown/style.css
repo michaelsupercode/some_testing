@@ -1,10 +1,10 @@
 nav {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 nav div {
-    background-color: rgb(25, 186, 250);
     text-align: center;
     width: 15rem;
     height: max-content;
@@ -14,7 +14,6 @@ nav div {
 
 nav div:hover {
     font-weight: bold;
-    background-color: lightskyblue;
 }
 
 .dropdown {
@@ -23,7 +22,6 @@ nav div:hover {
     padding: 0;
     list-style: none;
     width: 100%;
-    background-color: lightblue;
     font-weight: normal;
 }
 
@@ -37,7 +35,6 @@ nav div:hover .dropdown {
 
 li:hover {
     font-weight: bold;
-    background-color: lightskyblue;
 }
 
 button {
