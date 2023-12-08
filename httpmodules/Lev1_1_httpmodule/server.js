@@ -12,7 +12,7 @@ const sendFile = (path, res) => {
 };
 
 const requestHandler = (req, res) => {
-  console.log("Nicer dicer, da ist die Request", req.url, req.method);
+  console.log("..runnin'..", req.url, req.method);
 
   if (req.url === "/") {
     sendFile("./assets/pages/home.html", res);
@@ -23,4 +23,4 @@ const requestHandler = (req, res) => {
 };
 
 const server = http.createServer(requestHandler);
-server.listen(8080, () => console.log("Server is Online"));
+server.listen(8080, () => console.log("server is fuckin' running.."));
