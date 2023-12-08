@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.home-header {
+  padding-top: 10vh;
+  background-image: url("../img/home.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.about-header {
+  padding-top: 10vh;
+  background-image: url("../img/about.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.contact-header {
+  padding-top: 10vh;
+  background-image: url("../img/contact.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.faq-header {
+  padding-top: 10vh;
+  background-image: url("../img/faq.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+h1 {
+  font-size: 8rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2vw;
+  gap: 2vw;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
