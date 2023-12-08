@@ -52,4 +52,4 @@ server.put("/", (req, res) => {
   res.end();
 });
 
-server.listen(PORT, () => console.log(`Sprintet mit ${PORT}km/h`));
+server.listen(PORT, () => console.log(`server runs on ${PORT}`));
