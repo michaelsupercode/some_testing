@@ -5,7 +5,7 @@ const AdminPage = ({ setRefresh, blogs }) => {
     event.preventDefault();
     const form = new FormData(event.target);
 
-    fetch("http://localhost:1337/admin/addBlog", {
+    fetch("http://localhost:1887/admin/addBlog", {
       method: "POST",
       body: form,
     }).then((response) => {

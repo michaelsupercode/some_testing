@@ -9,7 +9,7 @@ const ArticlePage = ({ blogs }) => {
     <>
       <img
         className="w-full"
-        src={"http://localhost:1337/" + blog?.imglink}
+        src={"http://localhost:1887/" + blog?.imglink}
         alt=""
       />
 

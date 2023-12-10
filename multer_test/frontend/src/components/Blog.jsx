@@ -6,7 +6,7 @@ const Blog = ({ blog }) => {
       <h1 className="text-5xl">{blog.titel}</h1>
       <img
         className="h-40"
-        src={"http://localhost:1337/" + blog.imglink}
+        src={"http://localhost:1887/" + blog.imglink}
         alt=""
       />
       <p className="text-2xl">{blog.titel2}</p>
