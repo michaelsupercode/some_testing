@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <Headline inhalt={'CONTACT'} />
             <Button inhalt={'email me'} />
-            <p>Created by hon smith</p>
+            <p>Created by john smith</p>
         </footer>
     );
 }
