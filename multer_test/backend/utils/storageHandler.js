@@ -6,13 +6,13 @@ const FILE_STORAGE = "uploads";
 
 export function setup() {
   fs.access("./" + DB + "/")
-    .then(() => console.log("Der Storage Ordner ist schon vorhanden"))
+    .then(() => console.log("..storage yet done.."))
     .catch(() => {
       fs.mkdir("./" + DB);
     });
 
   fs.access("./" + FILE_STORAGE + "/")
-    .then(() => console.log("Der Upload Ordner ist schon vorhanden"))
+    .then(() => console.log("..upload yet done.."))
     .catch(() => {
       fs.mkdir("./" + FILE_STORAGE);
     });

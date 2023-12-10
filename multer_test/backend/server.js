@@ -7,7 +7,7 @@ import { getAllBlogs, createBlog, setup } from "./utils/storageHandler.js";
 import { v4 } from "uuid";
 
 const server = express();
-const PORT = 1337;
+const PORT = 1887;
 const storage = multer.memoryStorage();
 const DIR = "./uploads/";
 const upload = multer({ storage });
@@ -21,6 +21,8 @@ server.get("/blogs", (req, res) => {
     .then((data) => res.json(data))
     .catch(() => res.status(500).end());
 });
+
+server.get("/", (_, res) => res.send("it fuckin’ works :)"));
 
 server.post("/admin/addBlog", upload.single("imglink"), (req, res) => {
   const blog = req.body;
