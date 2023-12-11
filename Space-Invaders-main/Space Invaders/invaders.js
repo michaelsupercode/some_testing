@@ -1,6 +1,6 @@
 //board
 let tileSize = 32;
-let rows=16;
+let rows=32;
 let columns=16;
 
 let board;
