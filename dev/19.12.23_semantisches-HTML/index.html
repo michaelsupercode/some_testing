@@ -1,0 +1,92 @@
+<!--  Hier fängt das HTML für den Browser an (Doctype) -->
+<!DOCTYPE html>
+<!--  Sprache der Seite -->
+<html lang="de">
+  <!--  Alle Meta Informationen, wie z.B Seiten Titel, Beschreibung -->
+  <head>
+    <!--  Hier wird das UTF-8 Format genutzt -->
+    <meta charset="UTF-8" />
+    <!--  Die Seite soll die ganze Breite einnehmen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Seitentitel-->
+    <title>Hallo Kurs</title>
+  </head>
+
+  <body>
+    <header></header>
+    <a href="#">HOME</a>
+    <!-- Dynamischer Pfad -->
+    <a href="./ABOUT/about.html">ABOUT</a>
+    <!-- Absoluter Pfad - target="_blank" öffnet das ganze als neuen TAB -->
+    <a href="https://www.super-code.de/" target="_blank">SUPERCODE</a>
+    <!-- Dynamischer Pfad -->
+    <a href="./kontakt.html">KONTAKT</a>
+    <main>
+      <!-- Im Main kommt der Haupt Content -->
+      <section>
+        <!-- H1 - H6 je niedriger die Zahl desto wichtiger ist die Überschrift (H1 nur 1x pro Seite nutzen) -->
+        <h1>Test Nachricht</h1>
+        <article>
+          <h2>Test Nachricht 2</h2>
+        </article>
+        <article>
+          <h1>TEST <br />umbruch</h1>
+          <h2>TEST</h2>
+          <h3>TEST</h3>
+          <h4>TEST</h4>
+          <h5>TEST</h5>
+          <h6>TEST</h6>
+        </article>
+      </section>
+      <section>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
+          aspernatur soluta itaque a minima sunt totam. Eligendi quidem magni,
+          praesentium itaque nesciunt quod voluptatibus, veniam eaque
+          perferendis dolorum quis accusamus.
+        </p>
+      </section>
+      <section>
+        <!--  Bild aus Ordner einblenden -->
+        <img src="./assets/images/hund.webp" alt="Bild von einem Hund" />
+      </section>
+      <section>
+        <!-- Listen -->
+        <!-- ol => ordet list -> Hier bekommen wir 1. 2. 3. usw. -->
+        <!-- ul => unordet list -> Hier bekommen wir nur einen Punkt vor der Liste -->
+        <ol>
+          <li>eins</li>
+          <li>zwei</li>
+          <li>drei</li>
+          <li>vier</li>
+          <li>fünf</li>
+        </ol>
+        <ul>
+          <li>eins</li>
+          <li>zwei</li>
+          <li>drei</li>
+          <li>vier</li>
+        </ul>
+        <ul>
+          <li>Einkaufsliste</li>
+          <ul>
+            <li>Brot</li>
+            <li>Salat</li>
+            <li>Wasser</li>
+            <li><a href="./kontakt.html">KONTAKT AUFRUFEN</a></li>
+          </ul>
+          <li>TEST</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <h4>Footer als Test</h4>
+      <ul>
+        <li><a href="#">KONTAKT</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">IMPRESSUM</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

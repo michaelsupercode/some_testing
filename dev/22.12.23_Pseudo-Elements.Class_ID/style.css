@@ -1,0 +1,82 @@
+/* WICHTIG Ganz oben * ist der komplette style aller Elemente */
+/* BASIC STYLES KOMMEN IMMER NACH GANZ OBEN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mit dem first-letter kann man den ersten Buchstaben stylen */
+section p::first-letter {
+  font-size: 40px;
+  color: red;
+  text-transform: uppercase;
+}
+
+/* Mit dem first-line kann man immer die erste Zeile stylen */
+section p::first-line {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+/* Wir können das sauch kombinieren */
+section p:last-of-type::first-line {
+  background-color: brown;
+}
+
+/* Damit kann man die Punkte in Listen bearbeiten */
+li::marker {
+  content: "¡";
+}
+
+article li {
+  list-style: none;
+}
+
+/* After: können wir so benutzen: WICHTIG!!: das After wird nicht im HTML auftauchen */
+article h4:nth-of-type(1)::after {
+  content: "- Ich bin After";
+  font-size: 20px;
+  color: aqua;
+}
+article h4:nth-of-type(2)::before {
+  content: "- Ich bin before";
+  font-size: 20px;
+  color: aqua;
+}
+
+/* Der Zustsand wenn man mit der Maus über das Element geht */
+article h4:nth-of-type(1):hover {
+  background-color: blueviolet;
+  text-shadow: 0 0 10px black;
+}
+
+/* Der Zustand wenn man auf ein Element klickt */
+article h4:nth-of-type(1):active {
+  background-color: green;
+}
+
+article a {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+article a:hover {
+  background-color: antiquewhite;
+}
+
+article a:active {
+  background-color: aqua;
+  font-size: 12px;
+}
+
+/* Class & ID */
+.flasche {
+  font-size: 40px;
+}
+

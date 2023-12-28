@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(47, 88%, 63%);
+}
+
+header {
+  background-color: black;
+  height: 40px;
+}
+main section article {
+  background-image: url(./assets/images/illustration-article.svg);
+  background-size: contain;
+  width: 320px;
+  height: 200px;
+  margin-top: 18px;
+  margin-left: 19px;
+  border-radius: 10px;
+}
+main section {
+  height: 500px;
+  width: 360px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  background-size: contain;
+  margin: auto;
+  margin-top: 10%;
+  background-position: center;
+  box-shadow: 4px 4px 0px black;
+}
+footer section {
+  background-color: white;
+  height: 15px;
+  margin-top: 120px;
+}

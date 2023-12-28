@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UNITS */
+
+/* ! REM */
+/* ! 1rem = 16px */
+/* - rem ist nicht abhängig vom Elternelement  */
+
+/* !TRICK um REM nicht mehr berechnen zu müssen 
+So ist 1.6rem z.B 16px*/
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+/* ! EM */
+/* - em ist abhängig vom Elternelement */
+/* - rem und em mixen geht, macht aber keinen Sinn */
+
+/* ! vh und vw */
+/* ! vh nimmt immer die komplette höhe des displays ein und ist responsive */
+/* - viewhight und viewwidht */
+.red {
+  background-color: red;
+  height: 100vh;
+}
+
+/* ! Clamp ist vom Responsiven das beste */
+/* ? Erster Wert: Kleinste größe */
+/* ? Zweiter Wert: Optimale größe (mit vw arbeiten) */
+/* ? Dritter Wert: Maximale größe */
+h3 {
+  font-size: clamp(1.2rem, 1.8vw, 2.2rem);
+}
+
+/* # POSITIONS */
+
+.absolut {
+  margin: 30px;
+  padding: 10px;
+  background-color: gray;
+  /* 
+  ! Ich muss immer dem Elternelement von absolut positionierten element position: relative;
+  ! geben, ansonsten richtet sich das absolute an das body und nicht an das Elternelement
+  */
+  position: relative;
+}
+
+.absolut a {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-decoration: none;
+  color: white;
+}
