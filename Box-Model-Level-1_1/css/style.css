@@ -1,7 +1,12 @@
 p {
   background-color: limegreen;
   border: solid black 10px;
-  width: 200px;
-  margin: auto;
+  width: 20vh;
+  margin: 8vh auto;
   padding: 20px;
 }
+
+h6 {
+  margin: 5vh;
+  text-align: center;
+  }
