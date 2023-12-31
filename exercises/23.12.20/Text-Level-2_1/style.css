@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(86, 86, 86);
+}
+
+h1 {
+  color: white;
+  font-family: Tahoma;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+
+h2 {
+  text-shadow: 1.5px 1.5px 0px #868686;
+  letter-spacing: 5px;
+  text-indent: 40px;
+}
+
+blockquote:nth-of-type(1) p:nth-of-type(1) {
+  text-indent: 50px;
+  word-spacing: 10px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+blockquote:nth-of-type(2) p:nth-of-type(1) {
+  text-indent: 60px;
+  word-spacing: -2px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+blockquote:nth-of-type(3) p:nth-of-type(1),
+blockquote:nth-of-type(4) p:nth-of-type(1) {
+  white-space: nowrap;
+  text-indent: 40px;
+  line-height: 200%;
+}
+
+blockquote:nth-of-type(4) p:nth-of-type(1) {
+  color: white;
+}
+
+blockquote:nth-of-type(3) {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(153, 153, 153);
+}
+
+blockquote:nth-of-type(4) {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(51, 51, 51);
+}

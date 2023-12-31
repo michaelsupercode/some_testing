@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  /* margin: 0;
+  padding: 0; */
+}
+
+section {
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  background-color: #546a7b;
+  padding: 10px;
+  margin: 25px;
+  border: 25px solid #ed6a5a;
+}
+
+div {
+  box-sizing: content-box;
+  height: 150px;
+  width: 150px;
+  padding: 50px;
+  border: 25px solid #f4f1bb;
+  background-color: #9bc1bc;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: '\25b6'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul li:nth-of-type(1)::before {
+  color: #9bc1bc;
+}
+ul li:nth-of-type(2)::before {
+  color: #f4f1bb;
+}
+ul li:nth-of-type(3)::before {
+  color: #546a7b;
+}
+ul li:nth-of-type(4)::before {
+  color: #ed6a5a;
+}

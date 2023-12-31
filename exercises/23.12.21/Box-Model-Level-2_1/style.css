@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.algn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cntr-text {
+  text-align: center;
+}
+
+.rnd-crns {
+  border-radius: 18px;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+#h1 {
+  border: 3px dashed black;
+  padding: 0;
+  margin: 0;
+}
+
+#h2 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#h3 {
+  border: 3px solid #9acd32;
+  padding: 3px;
+  margin: 0;
+}
+
+h1 {
+  margin: 10px 35px;
+  padding: 0;
+}
+
+h2 {
+  margin: 10px 0;
+  border: 3px hidden black;
+  box-shadow: 0 0 25px black;
+  border-radius: 18px;
+  padding: 10px 60px;
+}
+
+h3 {
+  border: 3px solid #9acd32;
+  padding: 10px 25px;
+  margin: 0;
+}
+
+p {
+  color: #a618ed;
+  border: 2px solid #f8a102;
+  width: 500px;
+  padding: 10px;
+}
+
+p::first-letter {
+  font-size: 1.5rem;
+}
+
+p:hover::first-letter {
+  color: red;
+  font-size: 3.5rem;
+}
+
+ul,
+ol {
+  border: 2px dotted #9acd32;
+  width: 400px;
+  padding: 15px 20px;
+}
+
+li {
+  border-bottom: 2px solid #9acd32;
+}

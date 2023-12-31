@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  /* box-sizing: border-box; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  background-color: #aafae3;
+  width: 200px;
+  padding: 25px;
+  border: 25px solid black;
+  margin: 25px auto;
+}

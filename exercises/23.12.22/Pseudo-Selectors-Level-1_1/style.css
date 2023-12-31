@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:visited {
+  color: #fcb941;
+  font-size: 3em;
+}
+
+a:hover {
+  background-color: #7e3661;
+  color: white;
+  text-decoration: none;
+}

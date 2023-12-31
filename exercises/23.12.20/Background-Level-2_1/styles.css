@@ -1,0 +1,11 @@
+body main section {
+  background: url(./assets/img/planks.avif) top;
+  color: white;
+}
+
+body main article {
+  background-image: url("https://images.unsplash.com/photo-1603398749947-87246022fbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}

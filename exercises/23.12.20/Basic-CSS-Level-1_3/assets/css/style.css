@@ -1,0 +1,30 @@
+html {
+  background-color: lightgrey;
+}
+
+header {
+  background-color: grey;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: rgb(237, 72, 38);
+}
+
+main section footer a:hover,
+main section footer a:visited,
+main section footer a:link,
+main section footer a:active {
+  text-decoration: none !important;
+}
+
+footer {
+  margin: 20px;
+}
+
+span {
+  color: red;
+}
