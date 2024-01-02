@@ -25,10 +25,9 @@ const Home = () => {
       setFilteredFilmArr(filteredFilms);
     };
   
-    // Rendern
     return (
       <section>
-        <h1>Movie.it</h1>
+        <h1>..some_movies .json_data_based</h1>
         <Nav
           filterByDateAsc={() => sortBy((a, b) => a.year - b.year)}
           filterByDateDesc={() => sortBy((a, b) => b.year - a.year)}
