@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  margin-top: 15vh;
+  justify-content: center;
+  align-items: center;
+  background: #322828;
+  color: white;
+}
+div{
+text-align: center;
+}
+
+button{
+  display: flex;
+  padding: 20px;
+  background: rgb(116, 90, 94);
+  color: white;
+  gap: 1vw;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 36px;
+}
