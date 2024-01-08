@@ -1,0 +1,67 @@
+.h3FirstSection {
+    color: rgb(206, 194, 19);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.h2FirstSection {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 60%;
+    margin: 2rem auto 5rem auto;
+}
+
+.textArticleFirstSection {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textArticleFirstSection div h4 {
+    width: 75%;
+    margin: 1rem auto;
+    display: flex;
+    align-self: flex-start;
+    font-size: 1.6rem;
+}
+
+.textArticleFirstSection div p {
+    width: 60%;
+    margin: 1rem auto;
+}
+
+
+.firstDivTextArticle h4::before {
+    content: url("../../../img/Bilder/brush.svg");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.secondDivTextArticle h4::before {
+    content: url("../../../img/Bilder/object-select.svg");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.thirdDivTextArticle h4::before {
+    content: url("../../../img/Bilder/megaphone.svg");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.fourthDivTextArticle h4::before {
+    content: url("../../../img/Bilder/globe-line.svg");
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
