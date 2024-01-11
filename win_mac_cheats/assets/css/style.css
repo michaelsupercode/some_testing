@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+        }
+
 .l {
     border: 1px solid red;
     width: 30%;
+    height: 80vh;
 }
 
 .r {
