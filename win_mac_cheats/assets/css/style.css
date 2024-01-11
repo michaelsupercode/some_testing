@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.l {
+    border: 1px solid red;
+    width: 30%;
+}
+
+.r {
+    border: 1px solid orange;
+    width: 30%;
+
+}
