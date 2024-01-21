@@ -9,13 +9,13 @@ body {
     justify-content: center;
         }
 
-.l {
+.win {
     border: 1px solid red;
     width: 30%;
     height: auto;
 }
 
-.r {
+.mac {
     border: 1px solid orange;
     width: 30%;
 
