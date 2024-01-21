@@ -20,3 +20,8 @@ body {
     width: 30%;
 
 }
+
+.hotKey {
+    font-size: 1.1rem;
+    color: red;
+}
