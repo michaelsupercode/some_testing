@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 2rem;
+    gap: 2rem;
         }
 
 .win {
@@ -15,7 +16,6 @@ body {
     width: 30%;
     height: auto;
     padding: 1rem;
-
 }
 
 .mac {
