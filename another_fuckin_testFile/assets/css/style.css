@@ -17,7 +17,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient( circle at 50% 50%, var(--back), #11114e);
 }
 
 
