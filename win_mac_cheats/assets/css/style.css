@@ -12,14 +12,14 @@ body {
         }
 
 .win {
-    border: 1px solid red;
+    border: 2px solid red;
     width: 30%;
     height: auto;
     padding: 1rem;
 }
 
 .mac {
-    border: 1px solid orange;
+    border: 2px solid orange;
     width: 30%;
     padding: 1rem;
 }
