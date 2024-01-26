@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body header {
+body {
     display: flex;
     justify-content: center;
     padding: 2rem;
@@ -12,6 +12,7 @@ body header {
         }
 
 .win {
+
     border: 2px solid red;
     width: 40%;
     height: auto;
@@ -19,6 +20,7 @@ body header {
 }
 
 .mac {
+
     border: 2px solid orange;
     width: 40%;
     padding: 1rem;
