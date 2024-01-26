@@ -12,7 +12,6 @@ body {
         }
 
 .win {
-
     border: 2px solid red;
     width: 40%;
     height: auto;
@@ -20,7 +19,6 @@ body {
 }
 
 .mac {
-
     border: 2px solid orange;
     width: 40%;
     padding: 1rem;
