@@ -10,7 +10,7 @@ const MoviesGallery = () => {
 
     return (
         <>
-            <h2>MoviesGallery</h2>
+            <h2>Movie-Listing</h2>
             <Header />
             <main>
                 {movies.map((movie, index) => {
