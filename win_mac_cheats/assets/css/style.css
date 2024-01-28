@@ -29,3 +29,8 @@ body {
     font-size: 1rem;
     color: red;
 }
+
+.marked {
+    font-size: 1rem;
+    color: rgb(235, 182, 8);
+}
