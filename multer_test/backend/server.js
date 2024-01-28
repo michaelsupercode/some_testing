@@ -79,4 +79,4 @@ server.put("/admin/addBlog", upload.single("imglink"), (req, res) => {
   res.end();
 });
 
-server.listen(PORT, () => console.log(`Sprintet mit ${PORT}km/h`));
+server.listen(PORT, () => console.log(`..fuckin ${PORT} runs..`));
