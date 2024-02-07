@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="no-js srjuxmb idc0_350" lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<title>n-tv.de</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="handler_data/main.js"></script>
+	
+	<script>
+	
+	if (window.location.href.indexOf("testAuth=true") > -1) {
+			document.write('<scr'+'ipt src="mainTest.js?rand=' + new Date().getTime() + '"></sc'+'ript>');
+	}
+		
+	</script>
+
+	<script type="text/javascript">
+		var lasturl = getCookie('_ntv_laurl');
+		document.cookie = "_ntv_laurl=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=n-tv.de";
+
+
+		ntvAuthClient = new NtvAuthClient();
+
+
+		window.addEventListener('message', function (e) {
+			if(e.data && e.data.auth){
+				ntvDebug("*** auth iframe get message ***");
+				ntvDebug(e.data);
+				
+				if(e.data.auth.doLogout){
+					ntvAuthClient.logout(function(){
+						if(urlParams.pa_origin){
+							evalUserStatus();
+						}
+					});
+				}
+				
+				if(urlParams.pa_origin && (urlParams.pa_origin=="https://www.n-tv.de" || urlParams.pa_origin=="https://preview.n-tv.de" || urlParams.pa_origin=="https://sportdaten.n-tv.de")){
+					
+					if(e.data.auth.getNewsletterSubscriptions){
+						ntvAuthClient.getNewsletterSubscriptions(function(data){
+							window.parent.postMessage({nlSubscriptions: data}, urlParams.pa_origin);
+						});
+					}
+					if(e.data.auth.subscribeNewsletter){
+						ntvAuthClient.subscribeNewsletter(e.data.auth.subscribeNewsletter, function(data){
+							window.parent.postMessage({nlSubscribe: data}, urlParams.pa_origin);
+						});
+					}
+					if(e.data.auth.unsubscribeNewsletter){
+						ntvAuthClient.unsubscribeNewsletter(e.data.auth.unsubscribeNewsletter, function(data){
+							window.parent.postMessage({nlUnsubscribe: data}, urlParams.pa_origin);
+						});
+					}
+				}
+			}
+		});
+
+		var evalUserStatus = function(){
+
+			ntvAuthClient.evalUserStatus(function(status){
+				ntvDebug("*** auth handler userStatus ***");
+				ntvDebug(status);
+				ntvDebug(JSON.stringify(status));
+
+				if(urlParams.code && window.location == window.parent.location && !urlParams.pa_origin){// back from login
+					ntvDebug("*** redirect ***");
+					if(lasturl){
+						document.location.href = lasturl;
+					}else{
+						document.location.href = "https://www.n-tv.de";
+					}
+				}else{
+					if(urlParams.pa_origin){
+						if(urlParams.pa_origin=="https://www.n-tv.de" || urlParams.pa_origin=="https://preview.n-tv.de" || urlParams.pa_origin=="https://alpha.n-tv.de" || urlParams.pa_origin=="https://alpha-staging.n-tv.de" || urlParams.pa_origin=="https://local.n-tv.de:3000" || urlParams.pa_origin=="https://sportdaten.n-tv.de"){
+							window.parent.postMessage({auth: status}, urlParams.pa_origin);
+						}
+					}
+				}
+			});
+
+		};
+
+
+		evalUserStatus();
+
+	</script>
+
+	<style>
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			background: #e1e6eb;
+			font-family: Plex Sans, Arial, Helvetica, sans-serif;
+			font-size: 15px;
+			color: #000;
+			height: 100%;
+		}
+
+		.metawrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+		.container {
+			background-color: #FFF;
+			height: 100%;
+		}
+
+		header {
+			width: 100%;
+			height: 40px;
+			background-color: #2d3c46;
+		}
+
+		header img {
+			height: 100%;
+		}
+
+		.loading {
+		    background: url(images/icon__loading__grey.svg) no-repeat;
+		   	background-position: center bottom;
+		   	background-size: 50px;
+		   	height: 40%;
+		}
+
+		span {
+			display: block;
+			text-align: center;
+			padding: 20px;
+		}
+
+		@media screen and (min-width: 768px) and (max-width: 1279px){
+			header {
+				height: 48px;
+			}
+		}
+
+		@media screen and (min-width: 1280px){
+			.metawrapper {
+			    margin: 40px auto 0 auto;
+			    width: 1256px;
+			    position: relative;
+			}
+			.container {
+				width: 1036px;
+			}
+			header {
+				height: 60px;
+			}
+		}
+
+		@media screen and (min-width: 1920px){
+			.metawrapper {
+			    width: 1672px;
+			    position: relative;
+			}
+			.container {
+				width: 1452px;
+			}
+			header {
+				height: 85px;
+			}
+		}
+
+	</style>
+
+
+</head>
+
+
+<body style="padding: 0; margin: 0;">
+
+	<div class="metawrapper">
+	    <div class="container sitewrapper" role="main">
+	    	<header><img src="handler_data/logo.svg" alt="N-TV"></header>
+	    	<div class="loading"></div>
+	    	<span>Einen Moment bitte, die Seite wird geladen</span>
+	    </div>
+	</div>
+
+
+</body></html>

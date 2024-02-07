@@ -1,0 +1,36 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+        }
+
+.win {
+    border: 2px solid red;
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+}
+
+.mac {
+    border: 2px solid orange;
+    width: 40%;
+    padding: 1rem;
+}
+
+.hotKey {
+    padding: .3rem;
+    font-size: 1rem;
+    color: red;
+}
+
+.marked {
+    font-size: 1rem;
+    color: rgb(235, 182, 8);
+}
