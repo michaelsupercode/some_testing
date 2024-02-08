@@ -6,13 +6,12 @@
 
 body {
     margin: 2rem;
-    display: flex;
     justify-content: center;
     gap: .1rem;
 }
 
 .section {
-
+        
 }
 .base {
     width: 25rem;
