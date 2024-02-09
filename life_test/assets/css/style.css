@@ -18,22 +18,6 @@ section {
     width: 25rem;
     height: 25rem;
     border: 1px solid red;
+    padding: .7rem;
 }
 
-.al {
-    width: 25rem;
-    height: 25rem;
-    border: 1px solid red;
-}
-
-.bet {
-    width: 25rem;
-    height: 25rem;
-    border: 1px solid red;
-}
-
-.ga {
-    width: 25rem;
-    height: 25rem;
-    border: 1px solid red;
-}
