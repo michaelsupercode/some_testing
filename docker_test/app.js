@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-const PORT = "9000";
+const PORT = "8828";
 
 app.get("/", (_, res) => {
   res.json({ message: "My first Docker" });
