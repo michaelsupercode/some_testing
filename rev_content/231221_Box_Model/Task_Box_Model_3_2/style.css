@@ -146,6 +146,7 @@ section div a {
 footer {
   background-color: #3a3b4a;
   color: white;
+  margin: 0 auto;
   padding: 41px 25px;
 }
 
