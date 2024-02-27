@@ -21,13 +21,13 @@ section {
 nav {
   background-color: #60686c;
   padding: 1rem 0.5rem;
-  text-align: right;
+  text-align: left;
   opacity: 0.7;
 }
 
 nav li {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-left: 10rem;
   list-style: none;
 }
 
