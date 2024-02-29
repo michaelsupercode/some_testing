@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Maven;
+  src: url(./assets/fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Gilda;
+  src: url(./assets/fonts/GildaDisplay-Regular.ttf);
+}
+
+:root {
+  --color-gray: #949494;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* ! HEADER */
+
+header {
+  background-color: #333;
+  color: white;
+  margin-bottom: 18.75rem;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.9375rem;
+  margin: 0 0 4.375rem 1.25rem;
+  color: var(--color-gray);
+}
+
+.header-logo span {
+  font-family: Maven;
+  font-weight: 700;
+}
+
+.header-logo span:nth-of-type(2) {
+  text-indent: 0.5rem;
+}
+
+.header-hero {
+  width: 18.75rem;
+  text-align: center;
+  margin: 0 auto;
+  background-image: linear-gradient(to top right, #ff00ff, #2727f0, #48cefa);
+  border-radius: 8px;
+  padding: 10px 0 20px 0;
+  transition: 0.5s;
+}
+
+.header-hero:hover {
+  background-image: linear-gradient(to top right, #48cefa, #2727f0, #ff00ff);
+}
+
+h1 {
+  font-family: Gilda;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 220px;
+  margin: 0 auto 1rem auto;
+}
+
+.header-hero p {
+  font-family: Maven;
+}
+
+nav {
+  font-family: Maven;
+  text-align: right;
+  margin-right: 1rem;
+  padding: 1.875rem 0 10.625rem 0;
+}
+
+nav li {
+  margin-bottom: 1rem;
+}
+
+nav li:last-of-type {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav a {
+  color: var(--color-gray);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: white;
+  text-shadow: 0 0 20px white;
+  font-weight: 700;
+}
+
+/* ! MAIN */
+
+main {
+  padding: 0 3.125rem;
+}
+
+.hero-header h2 {
+  text-transform: uppercase;
+  font-family: Maven;
+  font-size: 8.5rem;
+  color: hsla(0, 1%, 66%, 0.11);
+  margin-left: -0.3rem;
+}
+
+.hero-header p:first-of-type {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: -3rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero-header p:last-of-type {
+  font-family: Maven;
+  width: 700px;
+  margin-bottom: 13.4375rem;
+}
+
+.hero-image-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 43.75rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.hero-image-container img {
+  margin-bottom: 2.25rem;
+}
+
+.hero-image-container h3 {
+  margin-bottom: 0.625rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.hero-image-container p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+}

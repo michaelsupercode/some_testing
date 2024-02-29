@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Montserrat;
+}
+
+/* ! HEADER */
+
+header {
+  background-image: url(./assets/img/bike.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.slogan {
+  display: inline-block;
+  margin: 200px 0;
+  width: 410px;
+  padding: 65px 0;
+  color: black;
+  text-align: center;
+}
+
+.slogan h2 {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.slogan p {
+  font-weight: 700;
+}
+
+/* ! NAV BAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 17.1875rem 1rem 3.125rem;
+  background-color: black;
+  opacity: 0.5;
+  position: sticky;
+  top: 0;
+  margin-top: -3.8rem;
+  margin-bottom: 14.375rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ! MAIN */
+
+main {
+  margin-bottom: 7.5rem;
+}
+
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2.25rem;
+}
+
+.line {
+  width: 70px;
+  border: 2px solid black;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.img-container img {
+  width: 400px;
+  height: 250px;
+  transition: 1s;
+}
+
+.img-container img:hover {
+  transform: scale(1.05);
+}
+
+/* ! FOOTER */
+
+footer {
+  margin-bottom: 4.125rem;
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+
+footer ul {
+  margin-left: 150px;
+  margin-right: 4rem;
+  list-style: none;
+}
+
+footer li {
+  font-weight: 100;
+  margin-bottom: 0.9375rem;
+  transition: 1s;
+}
+
+footer li:hover {
+  font-size: 1.05rem;
+}
+
+.green {
+  color: green;
+  font-weight: 200;
+}
+
+.red {
+  color: red;
+  font-weight: 200;
+}
+
+footer li:last-of-type {
+  margin-bottom: 0;
+}
