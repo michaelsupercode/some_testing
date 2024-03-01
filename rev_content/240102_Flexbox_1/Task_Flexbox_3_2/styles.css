@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Lato;
+  src: url(./assets/fonts/Lato-Regular.ttf);
+}
+
+:root {
+  --color-gray: rgba(0, 0, 0 0.8);
+  --color-green: #d9e8e5;
+  --color-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  color: var(--color-gray);
+  font-family: Lato, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+/* ! HEADER */
+
+header {
+  align-items: flex-end;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4vh;
+}
+
+.header-logo {
+  align-items: center;
+  column-gap: 0.75rem;
+  display: flex;
+  margin-right: 4rem;
+}
+
+.header-logo a {
+  all: unset;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-bottom: -3px;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+header nav a {
+  all: unset;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+header nav a:hover {
+  transform: scale(1.05);
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+/* ! MAIN SECTION */
+
+section {
+  background-color: var(--color-green);
+  min-height: 100vh;
+  padding: 5rem 15vw 10rem 15vw;
+}
+
+section h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.item {
+  align-items: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  flex-basis: 21.25rem;
+  height: 14rem;
+  justify-content: flex-end;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+.item:nth-of-type(1) {
+  background-image: url(./assets/images/ring001.svg);
+}
+
+.item:nth-of-type(2) {
+  background-image: url(./assets/images/ring002.jpg);
+}
+
+.item:nth-of-type(3) {
+  background-image: url(./assets/images/ring003.svg);
+}
+
+.item:nth-of-type(4) {
+  background-image: url(./assets/images/ring004.svg);
+}
+
+.item:nth-of-type(5) {
+  background-image: url(./assets/images/ring005.svg);
+}
+
+.item:nth-of-type(6) {
+  background-image: url(./assets/images/ring006.svg);
+}
+
+.item:hover {
+  transform: scale(1.02);
+}

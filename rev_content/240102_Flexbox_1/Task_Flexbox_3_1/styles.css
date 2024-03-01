@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+:root {
+  --color-gray-light: #666;
+  --color-gray-dark: #4c4c4c;
+  --color-white: #fff;
+  --color-purple: #745cf9;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Raleway, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+/* ! HEADER */
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 15vw;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--color-white);
+}
+
+header a {
+  color: var(--color-gray-light);
+  font-size: 1.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+header a:hover {
+  color: #252525;
+  text-shadow: 0 0 1px #252525;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+header nav a {
+  color: var(--color-gray-dark);
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: var(--color-purple);
+}
+
+/* ! SECTION HERO */
+
+.main-wrapper {
+  background: url(./assets/images/background.svg) no-repeat center;
+  background-size: cover;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22.875rem 0 18.125rem 0;
+}
+
+.main-wrapper h1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin-bottom: 1.5625rem;
+  text-align: center;
+}
+
+.main-wrapper p {
+  font-size: 0.875rem;
+  margin-bottom: 2.25rem;
+}
+
+.link-wrapper {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.link-wrapper a {
+  color: var(--color-white);
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  padding: 0.9375rem 0;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.link-wrapper a:first-of-type {
+  border: 1px solid var(--color-purple);
+  background-color: var(--color-purple);
+}
+
+.link-wrapper a:first-of-type:hover {
+  border: 1px solid #604ec7;
+  background-color: #604ec7;
+}
+
+.link-wrapper a:last-of-type {
+  border: 1px solid var(--color-white);
+}
+
+.link-wrapper a:last-of-type:hover {
+  background-color: var(--color-white);
+  color: var(--color-gray-dark);
+}
