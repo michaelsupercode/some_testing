@@ -9,8 +9,6 @@
   padding: 1rem;
 }
 
-
-
 p::before {
   content: 'Info';
   background-color: var(--color-yellow);
