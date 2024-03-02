@@ -8,6 +8,11 @@
   font-family: Montserrat;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+      }
+
 h3::first-letter {
   font-size: 3rem;
   color: #a020f0;
