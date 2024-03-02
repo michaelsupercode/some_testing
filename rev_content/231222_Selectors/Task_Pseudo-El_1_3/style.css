@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+      }
+
 h1::first-letter {
   font-size: 3rem;
   color: #00796b;
