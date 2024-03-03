@@ -25,12 +25,12 @@ img {
 }
 
 header {
+  display: flex;
   align-items: center;
   background-color: rgb(88, 26, 26);
-  display: flex;
   justify-content: space-between;
   opacity: 0.6;
-  padding: 0.5rem 5vw;
+  padding: 1.9rem 7vw;
 }
 
 header nav {
