@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper">
+        <div class="header">
+          <p>Sign Up Now!</p>
+          <p>Sign up and tell us what you think of the site?</p>
+        </div>
+        <form>
+          <fieldset>
+            <legend>First Name & Address</legend>
+            <div class="circle"><span>1</span></div>
+            <label for="full-name">Your Full Name*</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              required
+            />
+            <label for="address">Address</label>
+            <textarea
+              name="address"
+              id="address"
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>Email & Phone</legend>
+            <div class="circle"><span>2</span></div>
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+            />
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+            />
+          </fieldset>
+          <fieldset>
+            <legend>Passwords</legend>
+            <div class="circle"><span>3</span></div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+            />
+            <label for="confirm">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm"
+              id="confirm"
+            />
+          </fieldset>
+          <div class="footer">
+            <input
+              type="submit"
+              value="Senden"
+            />
+            <div class="footer-terms">
+              <input
+                type="checkbox"
+                name="terms"
+                id="terms"
+              />
+              <label for="terms">You agree to our Terms and Policy</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
