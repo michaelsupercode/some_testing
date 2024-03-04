@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  perspective: 1000px;
+}
+
+.cards {
+  width: 30vw;
+  height: 10vw;
+  border-radius: 5px;
+  transform: rotateZ(5deg) rotateY(-15deg);
+  transition: 1s;
+}
+
+.cards:nth-of-type(1) {
+  background-color: hsla(200, 91%, 87%, 0.9);
+  border-bottom: 4px solid hsla(200, 91%, 60%, 0.6);
+  z-index: 3;
+}
+
+.cards:nth-of-type(2) {
+  background-color: hsla(65, 100%, 89%, 0.9);
+  border-bottom: 4px solid hsla(65, 100%, 60%, 0.6);
+  z-index: 2;
+}
+
+.cards:nth-of-type(3) {
+  background-color: hsla(272, 100%, 95%, 0.9);
+  border-bottom: 4px solid hsla(272, 100%, 70%, 0.6);
+  z-index: 1;
+}
+
+.cards:nth-of-type(2),
+.cards:nth-of-type(3) {
+  margin-top: -10px;
+}
+
+.cards:nth-of-type(1):hover {
+  transform: none;
+}
+
+.cards:nth-of-type(2):hover {
+  transform: none;
+  z-index: 4;
+}
+
+.cards:nth-of-type(3):hover {
+  transform: none;
+  z-index: 5;
+}
