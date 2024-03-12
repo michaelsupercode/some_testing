@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<!-- Meta Data -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QR-Code-Generator/-Reader</title>
+	<link rel="canonical" href="https://tracking-garden.com/tools/qr-code-generator-und-reader/" /><link rel="alternate" hreflang="en" href="https://tracking-garden.com/utils/qr-code-generator-and-reader/" />	<!-- link rel="icon" href="/site/templates/img/favicon.ico" -->
+	<link rel="icon" href="/site/templates/img/favicon.png" type="image/png">
+	<!-- CSS FILES -->
+	<link rel="stylesheet" type="text/css" href="/site/templates/styles/uikit.min.css">
+	<link rel="stylesheet" type="text/css" href="/site/templates/styles/tg.css" />
+    	<style>
+div#nav #nav_left_img { visibility: visible; display: inline!important; }
+</style>
+	<!-- JS FILES -->
+		<!-- Tracking and Rich Snippet Stuff -->
+	
+
+<!-- Tracking Pixel for HTML-Head -->
+<!-- Matomo Code -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//tracking-garden.com/m/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<!-- TP -->
+<script type="text/javascript">
+  var tgGetTp = function() {
+    if(document.querySelector('#tgtp') != null) return;
+    if(typeof ProcessWire == 'object' && typeof ProcessWire.config == 'object' && typeof ProcessWire.config.PageFrontEdit == 'object') {
+      (function(d,n,i,u){var t=d.cookie.split('tr_debug='),
+      k=typeof t[1]=='string'&&t[1].substring(0,1)!='0'?true:false;var l=k?'&ts='+n.now():'',
+      s=d.createElement('script'),y=d.getElementsByTagName('head')[0];s.id='tgtp';
+      s.type='text/javascript';s.async=true;s.src='https://'+u+'?cid='+i+l;y.appendChild(s);
+      })(document,Date,'tpTrackingGarden','tracking-garden.com/scripts/tgProxy/pp.php');
+      var tpstpc=function(d,v){var n=new Date();n.setTime(n.getTime()+(60*60*24*365*1000));
+      d.cookie=v+'; expires='+n.toGMTString()+', path=/; domain=.'+d.location.host+'; SameSite=None; Secure;';},
+      tpgtpc=function(d){var m=d.cookie.match(new RegExp('(^| )_tpu=([^;]+)'));if(m)return m[2];return;};
+    }
+    return;
+  };
+  if(document.readyState == 'complete') {
+    tgGetTp();
+  } else if(typeof document.addEventListener == 'function') {
+    document.addEventListener('readystatechange', tgGetTp);     
+  } 
+</script>
+<!-- End TP -->
+
+<!-- Start Open Web Analytics Tracker -->
+<script type="text/javascript">
+//<![CDATA[
+/*
+var owa_baseUrl = 'https://tracking-garden.com/owa/';
+var owa_cmds = owa_cmds || [];
+owa_cmds.push(['setSiteId', 'e7180395c9c19ab53a72b88616718ade']);
+owa_cmds.push(['trackPageView']);
+owa_cmds.push(['trackClicks']);
+owa_cmds.push(['trackDomStream']);
+
+(function() {
+    var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+    owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+    _owa.src = owa_baseUrl + 'modules/base/dist/owa.tracker.js';
+    var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+}());
+*/
+//]]>
+</script>
+<!-- End Open Web Analytics Code -->
+
+<!-- / Tracking Pixel for HTML-Head -->
+<!-- AKDEV -->
+<!-- AKDEV -->
+	<!-- Something else -->
+	<meta property="og:url" content="https://tracking-garden.com/tools/qr-code-generator-und-reader/" /><meta property="og:title" content="QR-Code-Generator/-Reader" /><meta property="og:description" content="" />	<link href="/blog-rss/" type="application/atom+xml" rel="alternate" title="Tracking Garden - Blog Feed" />
+	</head>
+<body>
+<!-- Tracking Pixel for HTML-Body-top -->
+
+<!-- / Tracking Pixel for HTML-Body-top-->
+
+<div class="top-wrap2 uk-position-relative uk-light uk-background-secondary"><div id="nav" class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 25vh; animation: uk-animation-slide-top;"><div class="uk-container"><nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar><div id="nav_left" class="uk-navbar-left" style=""><div role="navigation" class="uk-navbar-item uk-padding-remove-horizontal"><span style="white-space:nowrap;padding-right:25px;"><a class="uk-logo" title="Logo" href="/"><img id="nav_left_img" class="uk-hidden" src="/site/templates/img/logo-top.png" alt="Tracking Garden - Logo"><span id="nav_left_txt" uk-toggle="cls: uk-visible@s; mode: media; media: @m"> Tracking Garden</span></a></span></div></div><div id="nav_right" class="uk-navbar-right"><span id="langswitch" class="uk-navbar-nav" style="padding-right:15px;"><a style="text-decoration:none;" class="uk-text-grey-dark uk-text-muted" title="english" href="https://tracking-garden.com/utils/qr-code-generator-and-reader/">en</a></span><ul id="topnav" role="navigation" class="uk-navbar-nav uk-visible@m"><li class="uk-active uk-visible@m"><a href="/?lang=de" data-uk-icon="home"></a></li><li><a href="/leistungen/" style="color:#fff;">Leistungen</a><div class="uk-navbar-dropdown"><ul class="uk-nav uk-navbar-dropdown-nav"><li><a href="/leistungen/integration-erweiterung/">Integration &amp; Erweiterung</a></li><li><a href="/leistungen/auditing-monitoring/">Auditing &amp; Monitoring</a></li><li><a href="/leistungen/visualisierung-optimierung/">Visualisierung &amp; Optimierung</a></li></ul></div><li><a href="/referenzen/" style="color:#fff;">Referenzen</a></li><li><a href="/kontakt/" style="color:#fff;">Kontakt</a><div class="uk-navbar-dropdown"><ul class="uk-nav uk-navbar-dropdown-nav"><li><a href="/kontakt/team/">Team</a></li><li><a href="/kontakt/impressum/">Impressum</a></li><li><a href="/kontakt/datenschutz/">Datenschutzerklärung</a></li></ul></div></ul><a class="uk-navbar-toggle uk-navbar-item uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a></div></nav></div></div>			</div>
+				<!-- /TOP -->
+<!-- Content -->
+<section id="content" class="uk-section uk-section-default" style="padding-top:15px;padding-bottom:15px;">
+	<div class="uk-container">
+
+		<div><h1 class="uk-margin-small-top" style="margin:0;">QR-Code-Generator/-Reader</h1><hr size="1" /></div>
+		<div class="uk-grid uk-child-width-1-1" style="padding-top:5px;padding-bottom:5px;">
+
+			<div class="uk-width-1@l">
+
+				
+                <form method="POST"><fieldset class="uk-fieldset"><legend class="uk-legend">QR-Code Inhalt:</legend><div class="uk-margin"><input class="uk-input" type="text" placeholder="" name="qrcontent" value="https//www.bit.ly/42TmEPQ" /></div><div uk-form-custom><button type="submit">QR-Code erzeugen</button></div></fieldset></form><h2>Erzeugter QR-Code:</h2><canvas id="qrDisplay"></canvas><script src="/site/templates/scripts/qrcode.js"></script><script>function displayQrCode(data) { const qrDisplay = document.getElementById('qrDisplay'); QRCode.toCanvas(qrDisplay, data);}displayQrCode("https//www.bit.ly/42TmEPQ");</script>
+				<!-- Audio Files -->
+				
+				<!-- Attachments -->
+							</div>
+
+			
+			
+		</div>
+	</div>
+</section>
+<!-- /Content -->
+
+<footer class="uk-section uk-section-secondary" style="padding-top:20px;"><div class="uk-container"><div class="uk-grid uk-grid-large uk-margin-small-top uk-text-meta uk-text-lighter uk-text-muted" style="" data-uk-grid><div><span style="float:left;">Sie sind hier:</span><ul class="uk-breadcrumb" style="margin:0;padding-left:10px;color:#f60;clear: none;"><li><a href=https://tracking-garden.com/>Tracking Garden</a></li><li><a href=https://tracking-garden.com/tools/>Tools</a></li><li><span>QR-Code-Generator/-Reader</span></li></ul></div></div><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem", "position":1, "name":"✙ Tools ✙", "item":"https://tracking-garden.com/tools/"},{"@type":"ListItem", "position":2, "name":"QR-Code-Generator/-Reader", "item":"https://tracking-garden.com/tools/qr-code-generator-und-reader/"}]}</script><div class="uk-grid uk-grid-large" style="margin-top:20px;" data-uk-grid><div class="uk-width-1-2@m"><div class="uk-h5">Tracking Garden GmbH<!-- <span class="uk-text-meta"><br />Mit 4,8 von 5 Sternen bewertet (bei Google)</span>--></div><p>Ritterfelddamm 225e<br />14089 Berlin, Germany<br />Tel: <a href="tel:+49-30-555709905">+49-30-555709905</a><br />E-Mail: <a href="mailto:info@tracking-garden.com">info@tracking-garden.com</a><br /><br /></p><div><a href="https://twitter.com/TrackingGarten" title="Tracking Garden Twitter Account deutsch" class="uk-icon-button" data-uk-icon="twitter"></a><a href="https://www.facebook.com/trackinggarden" title="Tracking Garden Facebook Account" class="uk-icon-button" data-uk-icon="facebook"></a><a href="https://www.instagram.com/trackinggarden/" title="Tracking Garden Instagram Account" class="uk-icon-button" data-uk-icon="instagram"></a><a href="https://www.linkedin.com/company/tracking-garden/" title="Tracking Garden LinkedIn Account" class="uk-icon-button" data-uk-icon="linkedin"></a><a href="https://www.xing.com/companies/trackinggarden" title="Tracking Garden Xing Account" class="uk-icon-button" data-uk-icon="xing"></a><a href="https://www.youtube.com/channel/UCOw5mNaP7-Z-DqmtfQdy7Mw" title="Tracking Garden Youtube Account" class="uk-icon-button" data-uk-icon="youtube"></a><!-- a href="/newsroom/podcast/" title="Tracking Garden Podcast" class="uk-icon-button" data-uk-icon="microphone"></a --><a href="/blog-rss/?lang=de" title="Tracking Garden RSS Feed" class="uk-icon-button" data-uk-icon="rss"></a></div></div><div class="uk-width-1-6@m"><div class="uk-h5">NEWSROOM</div><ul class="uk-list"><li><a href="/blog/" title="Blog" class="uk-text-muted">Blog</a></li><li><a href="/newsroom/events/" title="Events" class="uk-text-muted">Events</a></li><li><a href="/newsroom/newsletter/" title="Newsletter" class="uk-text-muted">Newsletter</a></li></ul></div><div class="uk-width-1-6@m"><div class="uk-h5">LEISTUNGEN</div><ul class="uk-list"><li><a href="/leistungen/" title="Portfolio" class="uk-text-muted">Portfolio</a></li><li><a href="/referenzen/" title="Referenzen" class="uk-text-muted">Referenzen</a></li><!--<li><a href="/angebote/" title="Angebote" class="uk-text-muted">Angebote</a></li>--></ul></div><div class="uk-width-1-6@m"><div class="uk-h5">KONTAKT</div><ul class="uk-list"><li><a href="/kontakt/" title="Kontakt" class="uk-text-muted">Kontakt</a></li><li><a href="/kontakt/team/" title="Team" class="uk-text-muted">Team</a></li><li><a href="/kontakt/impressum/" title="Impressum" class="uk-text-muted">Impressum</a></li><li><a href="/kontakt/datenschutz/" title="Datenschutzerklärung" class="uk-text-muted">Datenschutzerklärung</a></li></ul></div></div></div></footer><div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false"><div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide"><button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button><ul class="uk-nav uk-nav-default"><li class="uk-nav-header">Menü</li><li><a class="uk-parent" href="/?lang=de">Home</a></li><li><a class="uk-parent" href="/leistungen/">Leistungen</a><ul class="uk-nav-sub"><li><a class="" href="/leistungen/integration-erweiterung/">Integration &amp; Erweiterung</a></li><li><a class="" href="/leistungen/auditing-monitoring/">Auditing &amp; Monitoring</a></li><li><a class="" href="/leistungen/visualisierung-optimierung/">Visualisierung &amp; Optimierung</a></li></ul><li><a class="uk-parent" href="/referenzen/">Referenzen</a></li><li><a class="uk-parent" href="/kontakt/">Kontakt</a><ul class="uk-nav-sub"><li><a class="" href="/kontakt/team/">Team</a></li><li><a class="" href="/kontakt/impressum/">Impressum</a></li><li><a class="" href="/kontakt/datenschutz/">Datenschutzerklärung</a></li></ul></ul></div></div><!-- JS FILES -->
+<script src="/site/templates/scripts/uikit.min.js"></script>
+<script src="/site/templates/scripts/uikit-icons.min.js"></script>
+<!-- Tracking Pixel for HTML-Body-bottom-->
+<script type="text/javascript">
+var tgAddEvListener = function(elt,evt,fkt){
+  if(typeof window.addEventListener=='function'){
+    elt.addEventListener(evt,fkt);
+  } else {
+    elt.attachEvent('on'+evt,function(){fkt.call(elt);});
+  }
+};
+
+var tgClick = function (e) {
+  if(typeof _paq == 'object' && typeof _paq.push == 'function') {
+    var trRegExp = new RegExp("^http.*"+document.location.hostname+".*","i");
+    if(!this.href.match(trRegExp) && this.href.match(/^http.*/i)){
+      _paq.push(['trackEvent', 'User Experience', 'External Link Click', this.href, 0]);
+    } // Click on External Link
+    else if(this.href.match(/^mailto(.*)/i)){
+      _paq.push(['trackEvent', 'Contact', 'Click to Mail', this.href.substr(7), 0]);
+    } // Click on email address
+    else if(this.href.match(/^tel(.*)/i)){
+      _paq.push(['trackEvent', 'Contact', 'Click to Call', this.href.substr(4), 0]);
+    } // Click on email address
+    else if(this.href.match(/(\.pdf)|(\.doc)|(\.xls)|(\.zip)|(\.exe)|(\.mp3)|(\.wav)|(\.mov)|(\.mp4)/i)){
+      _paq.push(['trackEvent', 'User Experience', 'Download', this.href, 0]);
+    } // Click on download
+  }
+};
+
+var tgDecorateLinks = function() {
+  var atgLinks = document.querySelectorAll('a');
+  if(typeof atgLinks == 'object' && atgLinks.length > 0){
+    for(var i = 0; i < atgLinks.length; i++){
+      var otgLink = atgLinks[i];
+      tgAddEvListener(otgLink, 'mousedown', tgClick);
+    }
+  }
+};
+
+tgAddEvListener(document, 'DOMContentLoaded', tgDecorateLinks);
+</script>
+<!-- / Tracking Pixel for HTML-Body-bottom-->
+
+</body></html>
