@@ -33,7 +33,7 @@ html {
   gap: 0.5rem;
 }
 
-.container > div input {
+.container div input {
   width: 100%;
 }
 
@@ -46,8 +46,7 @@ label {
 input,
 select {
   padding: 0.3rem 0.5rem;
-  box-shadow: 0 0 1 1;
-  shadow-color: red;
+  box-shadow: 0 0 1px 1px red;
 }
 
 textarea {
