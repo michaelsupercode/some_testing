@@ -10,7 +10,7 @@ html {
 }
 
 .wrapper {
-  min-height: 100vh;
+  margin: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +46,8 @@ label {
 input,
 select {
   padding: 0.3rem 0.5rem;
+  box-shadow: 0 0 1 1;
+  shadow-color: red;
 }
 
 textarea {
