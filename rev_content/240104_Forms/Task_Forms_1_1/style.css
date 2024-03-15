@@ -49,6 +49,7 @@ input {
 }
 
 #subject {
+  height: 2.4rem;
   padding: .3rem .5rem;
 }
 
