@@ -58,14 +58,11 @@ textarea {
 }
 
 input [type='submit'] {
-  background-color: #e6cc09;
-  border: none;
-  color: white;
-  padding: .5rem;
+  background-color:aquamarine;
 }
 
 input [type='submit']:hover {
-  background-color: #061b44;
+  background-color: #0553ef;
   cursor: pointer;
 }
 
