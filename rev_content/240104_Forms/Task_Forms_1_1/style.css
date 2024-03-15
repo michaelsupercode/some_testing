@@ -23,14 +23,14 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
   width: 90vw;
   padding: 0 28vw;
 }
 
 .container div {
   display: flex;
-  gap: 0.5rem;
+  gap: .5rem;
 }
 
 .container div input {
@@ -39,17 +39,17 @@ html {
 
 label {
   font-weight: 700;
-  font-size: 0.9rem;
-  margin-bottom: 0.3rem;
+  font-size: .9rem;
+  margin-bottom: .3rem;
 }
 
 input {
-  padding: 0.3rem 0.5rem;
+  padding: .3rem .5rem;
   /* box-shadow: 0 0 1px 1px rgb(134, 106, 106); */
 }
 
 #subject {
-  padding: 0.3rem 0.5rem;
+  padding: .3rem .5rem;
 }
 
 textarea {
@@ -60,7 +60,7 @@ input [type='submit'] {
   background-color: #e6cc09;
   border: none;
   color: white;
-  padding: 0.5rem;
+  padding: .5rem;
 }
 
 input [type='submit']:hover {
