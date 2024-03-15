@@ -57,11 +57,13 @@ textarea {
   height: 7rem;
 }
 
-input [type='submit'] {
+input[type='submit'] {
   border: unset;
+  background-color: rgb(241, 188, 42)
 }
 
-input [type='submit']:hover {
+input[type='submit']:hover {
+  background-color: rgb(221, 153, 5);
   cursor: pointer;
 }
 
