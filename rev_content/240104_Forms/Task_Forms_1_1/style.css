@@ -58,11 +58,10 @@ textarea {
 }
 
 input [type='submit'] {
-  background-color:aquamarine;
+  border: unset;
 }
 
 input [type='submit']:hover {
-  background-color: #0553ef;
   cursor: pointer;
 }
 
