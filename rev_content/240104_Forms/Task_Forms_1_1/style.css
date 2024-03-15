@@ -24,8 +24,8 @@ html {
   display: flex;
   flex-direction: column;
   margin-bottom: 0.5rem;
-  width: 100vw;
-  padding: 0 30vw;
+  width: 90vw;
+  padding: 0 28vw;
 }
 
 .container div {
