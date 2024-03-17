@@ -15,7 +15,7 @@
 
 .header {
   color: white;
-  background-color: #43d1af;
+  background-color: #de980c;
   width: 35vw;
   text-align: center;
   padding: 1rem;
@@ -47,7 +47,7 @@ textarea {
 }
 
 input[type='submit'] {
-  background-color: #43d1af;
+  background-color: #de980c;
   color: white;
   border: none;
   transition: 0.5s;
@@ -55,7 +55,7 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-  background-color: #2ebc99;
+  background-color: #de980c;
 }
 
 @media only screen and (min-width: 1400px) {
