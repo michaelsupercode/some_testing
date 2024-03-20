@@ -4,12 +4,12 @@ nav {
 }
 
 nav div {
-    background-color: rgb(9, 33, 43);
+    background-color: rgb(25, 186, 250);
     text-align: center;
     width: 15rem;
     height: max-content;
     line-height: 4rem;
-    margin: 5vh;
+    margin: 0.2rem;
 }
 
 nav div:hover {
