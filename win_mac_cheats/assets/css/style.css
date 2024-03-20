@@ -2,8 +2,12 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:rgb(250, 227, 199)
-;}
+    background-color:rgb(250, 227, 199);
+}
+
+header {
+    width: 17vw;
+}
 
 body {
     display: flex;
