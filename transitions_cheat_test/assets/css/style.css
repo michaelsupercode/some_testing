@@ -1,0 +1,106 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+h1 {margin-bottom: 3vh;}
+/* ==== */
+
+.red {
+    background-color: beige;
+    margin-bottom: 2vh;
+}
+#div1{
+    width: 400px;
+    height:20px;
+    background-color:red;
+    transition: width 2s;
+}
+
+#div1:hover{
+    width: 600px;
+    transition-timing-function: linear;
+}
+
+#div2{
+    width: 400px;
+    height:20px;
+    background-color:red;
+    transition: width 2s,height 4s;
+}
+
+#div2:hover{
+    width: 600px;
+    height: 50px;
+}
+
+/* === */
+
+.yellow {
+    background-color:rgb(245, 220, 220);
+
+}
+#div3{
+    width: 400px;
+    height:20px;
+    background-color:rosybrown;
+    transition: width 2s,height 4s;
+}
+
+#div3:hover{
+    width: 600px;
+    transition-timing-function: linear;
+}
+
+/* === */
+
+.green {
+    background-color:rgb(165, 251, 143);
+    margin-top: 2vh;
+}
+#div4{
+    width: 400px;
+    background-color:rosybrown;
+    transition: width 2s,height 4s;
+}
+
+#div4:hover{
+    width: 600px;
+    transition-timing-function: ease;
+}
+
+#div5{
+    width: 400px;
+    background-color:rosybrown;
+    transition: width 2s,height 4s;
+}
+
+#div5:hover{
+    width: 600px;
+    transition-timing-function: ease-in-out;
+}
+#div6{
+    width: 400px;
+    background-color:rosybrown;
+    transition: width 2s,height 4s;
+}
+#div6:hover{
+    width: 600px;
+    transition-delay:  1s;
+}
+#div7{
+    width: 400px;
+    background-color:green;
+    transition: width 2s,linear 4s;
+}
+#div7:hover{
+    width: 600px;
+}
