@@ -1,0 +1,32 @@
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px 100px;
+  margin-top: 30px;
+}
+
+section {
+  max-width: 800px;
+  margin-inline: auto;
+  padding: 50px 40px;
+
+  h1 {
+    margin-block: 30px 80px;
+  }
+
+  article {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  section {
+    h1 {
+      margin-bottom: 0px;
+    }
+  }
+  .skills-list {
+    gap: 40px;
+  }
+}

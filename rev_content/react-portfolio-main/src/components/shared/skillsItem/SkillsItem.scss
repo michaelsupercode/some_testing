@@ -1,0 +1,21 @@
+.skills-item {
+  width: 12%;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+
+  div {
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}

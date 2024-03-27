@@ -1,0 +1,94 @@
+header {
+  padding: 30px 60px;
+  align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+
+  nav {
+    display: flex;
+    column-gap: 50px;
+    align-items: baseline;
+  }
+}
+
+.pending {
+  color: #d7d7d7;
+  text-decoration: none;
+  transition: text-decoration 300ms ease-in-out;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.pending2 {
+  color: #000;
+  text-decoration: none;
+  transition: text-decoration 300ms ease-in-out;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.active2,
+.active {
+  background-color: #000;
+  color: #d7d7d7;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 470px) {
+  nav {
+    flex-direction: column;
+    line-height: 40px;
+    background-color: #000000da;
+    padding-inline: 20px;
+    height: 50px;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+    border-bottom: 2px solid gray;
+
+    &:hover {
+      height: 240px;
+
+      &::before {
+        content: url("../../../assets/img/close.png");
+        color: #fff;
+        line-height: 50px;
+        padding-top: 5px;
+        margin-left: auto;
+      }
+    }
+
+    &::before {
+      content: url("../../../assets/img/navbar.png");
+      color: white;
+      line-height: 50px;
+      margin-left: auto;
+    }
+  }
+  header {
+    padding: 0;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    display: block;
+  }
+  .pending,
+  .pending2 {
+    color: #d7d7d7;
+    text-align: center;
+    width: 100%;
+  }
+
+  .active,
+  .active2 {
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+}
