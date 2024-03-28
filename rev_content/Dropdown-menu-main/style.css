@@ -6,7 +6,7 @@
 
 label.hamburg { 
     display: block;
-    background: #0e0202; width: 75px; height: 50px; 
+    background: #dc3d3d; width: 75px; height: 50px; 
     position: relative; 
     margin-left: auto; margin-right: auto;
     border-radius: 4px; 
@@ -18,10 +18,10 @@ label.hamburg {
  .line { 
     position: absolute; 
     left:10px;
-    height: 4px; width: 55px; 
+    height: 4px; width: 56px; 
     background: #fff; border-radius: 2px;
     display: block; 
-    transition: 0.5s; 
+    transition: .3s; 
     transform-origin: center; 
  }
  
