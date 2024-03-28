@@ -11,6 +11,7 @@ label.hamburg {
     margin-left: auto; margin-right: auto;
     border-radius: 4px; 
     margin-top: 15vh;
+    cursor: pointer;
  }
  
 
@@ -24,9 +25,17 @@ label.hamburg {
     transform-origin: center; 
  }
  
- .line:nth-child(1) { top: 12px; }
- .line:nth-child(2) { top: 24px; }
- .line:nth-child(3) { top: 36px; }
+ .line:nth-child(1) { 
+    top: 12px; 
+}
+
+ .line:nth-child(2) { 
+    top: 24px; 
+}
+
+ .line:nth-child(3) { 
+    top: 36px; 
+}
  
  #hamburg:checked + .hamburg .line:nth-child(1){
     transform: translateY(12px) rotate(-45deg);
