@@ -18,11 +18,8 @@ body {
   }
   
     main {
-        display: grid;
-    align-items: center;
-    justify-content: center;
-      width: 70vw;
-      padding: 2em;
+      width: 80vw;
+      padding: 8em;
     }
     
     main:hover {
