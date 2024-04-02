@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
 body {
     display: grid;
     align-items: center;
@@ -12,10 +19,17 @@ body {
   }
   
     main {
-      width: 50vw;
+      width: 70vw;
       padding: 2em;
     }
     
     main:hover {
       box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+
+    footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: 2vh;
     }
