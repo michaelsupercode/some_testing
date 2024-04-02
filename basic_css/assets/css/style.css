@@ -13,12 +13,14 @@ header {
 
 body {
     display: grid;
-    align-items: center;
     justify-content: center;
     min-height: 70vh;
   }
   
     main {
+        display: grid;
+    align-items: center;
+    justify-content: center;
       width: 70vw;
       padding: 2em;
     }
