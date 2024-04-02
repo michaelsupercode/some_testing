@@ -26,9 +26,13 @@ body {
       box-shadow: 0 0 11px rgba(33,33,33,.2); 
     }
 
-    footer {
+    p {
         display: grid;
-        align-items: center;
         justify-content: center;
         margin: 2vh;
     }
+
+    h6 {
+        margin: 1vh;
+        text-align: center;
+        }
