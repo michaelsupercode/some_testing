@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+  
+    main {
+      width: 50vw;
+      padding: 2em;
+    }
+    
+    main:hover {
+      box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
