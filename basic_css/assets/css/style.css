@@ -29,17 +29,17 @@ body {
     }
   }
 
-  .dark {
-    color: black;
-  }
   
   body {
-    color: CanvasText;
-    background-color: Canvas;
-  
-    transition: color 0.4s, background-color 0.4s;
-  }
-  
+      color: CanvasText;
+      background-color: Canvas;
+      transition: color .4s, background-color .4s;
+    }
+    
+    .dark {
+      color: black;
+    }
+
   @layer reset {
     *,
     *:after,
