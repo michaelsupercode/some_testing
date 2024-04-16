@@ -1,6 +1,4 @@
 :root {
-  color-scheme: light dark;
-
     &:has(input[name="color-scheme"][value="light dark"]:checked) {
       color-scheme: light dark;
     }
@@ -10,6 +8,17 @@
     &:has(input[name="color-scheme"][value="dark"]:checked) {
       color-scheme: dark;
     }
+ 
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #fafafa;
+    --primary-background: #121212;
+    --highlight-color: lime;
+  }
+}
+
+
 
 
   }
