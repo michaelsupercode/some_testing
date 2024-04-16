@@ -16,3 +16,9 @@
     transition: color .4s, background-color .4s;
   }
 
+  .row {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
