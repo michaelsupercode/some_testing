@@ -60,7 +60,7 @@ body {
     }
   }
   
-  @layer baselayout {
+  /* @layer baselayout {
     html {
       margin: auto;
       line-height: 1.5;
@@ -68,7 +68,7 @@ body {
       font-family: "Syne", sans-serif;
       height: 100%;
       background: white;
-    }
+    } */
   
     body {
       /* width: 100%;
