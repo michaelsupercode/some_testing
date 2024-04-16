@@ -10,6 +10,13 @@
     }
   }
 
+  body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
   main {
     color: CanvasText;
     background-color: Canvas;
