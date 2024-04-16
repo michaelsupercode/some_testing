@@ -115,7 +115,7 @@ body {
     }
   }
   
-  @layer components {
+  /* @layer components {
     @layer button {
       button {
         padding: 0.2em 0.4em;
@@ -137,7 +137,7 @@ body {
     }
     *:has(> .float-right, > .float-left) {
       display: flow-root;
-    }
+    } */
   
     .row {
       display: flex;
