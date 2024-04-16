@@ -11,13 +11,8 @@
   }
 
   main {
-      display: grid;
-    align-items: center;
-    justify-content: center;
-    width: 50vw;
-    min-height: 70vh;
     color: CanvasText;
     background-color: Canvas;
-    padding: 5em;;
     transition: color .4s, background-color .4s;
   }
+
