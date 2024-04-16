@@ -28,6 +28,10 @@ body {
       color-scheme: dark;
     }
   }
+
+  .dark {
+    color: black;
+  }
   
   body {
     color: CanvasText;
