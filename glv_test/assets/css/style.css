@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    justify-content: center;
+    min-height: 70vh; 
+}
+
+h5 {
+    font-size: 1em;
+}
+
+.set {
+    display: grid;
+    justify-content: center;
+    margin: 2vh;
+}
+    
+    .content {
+        width: 100vw;
+        height: 70vh;
+        background-image: url("glv_start1.jpg");
+        background-size: cover;
+    }
+    
+    
+    
