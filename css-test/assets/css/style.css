@@ -13,3 +13,10 @@ body {
 h5 {
   font-size: 1em;
 }
+
+.set {
+  display: grid;
+  justify-content: center;
+  margin: 2vh;
+}
+
