@@ -1,20 +1,15 @@
-/* * {
+* {
     border: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 
-:root {
-    --primary-color: #333;
-    --primary-background: #e4e4e4;
-    --highlight-color: hotpink;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --primary-color: #fafafa;
-      --primary-background: #121212;
-      --highlight-color: lime;
-    }
-  }
-  
+body {
+  display: grid;
+  justify-content: center;
+  min-height: 90vh; 
+}
+
+h5 {
+  font-size: 1em;
+}
