@@ -20,3 +20,9 @@ h5 {
   margin: 2vh;
 }
 
+.content {
+  width: 90vw;
+  height: 65vh;
+  background-image: url("baustelle_rep1.jpg");
+  background-size: cover;
+}
