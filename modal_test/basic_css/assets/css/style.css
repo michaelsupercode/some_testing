@@ -13,14 +13,14 @@ body {
 
 main {
     width: 50vw;
-    padding: 2em;
+    /* padding: 2em; */
   } 
 
 #modal {
     position: absolute;
     display: grid;
     place-items: center;
-    justify-content: center;    
+    /* justify-content: center;     */
 /* color: white; */
 background: url(Floppydisk.jpg) no-repeat center;
     /* width: 70%;
@@ -29,7 +29,7 @@ background: url(Floppydisk.jpg) no-repeat center;
 }
 
 .gallery_item {
-width: 600px;
+width: 700px;
 }
 
 .size {
@@ -37,12 +37,14 @@ width: 600px;
 }
 
 form {
-    position: absolute;
     display: grid;
     place-items: center;
     justify-content: center;    
+    position: absolute;
 }
 
 #log {
-    color: red;
+    margin-top: -13vh;
+    position: absolute;
+    color: rgb(254, 252, 252);
 }
