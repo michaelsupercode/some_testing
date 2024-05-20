@@ -32,23 +32,23 @@ export const Home = () => {
           <article>
             <p>
               IT enthusiast / autodidact (-85) with extensive amateurishly experience (-01)
-              in screen and web design as well as programming. self-taught
+              in screen and web design as well as programming - self-taught
               rookie in JavaScript, completed several FreeCodeCamp courses.<br/>
               ::|| successfully delivered numerous individual dental digital
               projects - workflow design, creation and optimisation, including
               engagements, orders and consulting.||:: <br/>highly skilled in remote
               work. extensive experience in <del>Microsoft Azure</del> cloud
-              architecture and all kinds of hosting anywhere.
+              architecture and all kinds of hosting anywhere
             </p>
           </article>
           <section id="space"></section>
           <article>
             <p>
               comprehensive support for desktop devices and servers, including
-              updates, system recovery, OS re-installation, hardware change and
-              software repair. also available for PC technology, hardware and
+              updates, system recovery, OS re-installation, hardware swap and
+              software repair - also available for PC technology, hardware and
               network technology support. offering data recovery services and
-              expertise in most internet-related issues.
+              expertise in most internet-related issues
             </p>
           </article>
 
@@ -66,7 +66,7 @@ export const Home = () => {
             <p>
             german, married, 29 years proud craftsman<br/>
             thoroughly honest | authentic | straightforward<br/>
-            social commitment: active member of Repaircafe Kirchheim/Teck - device support, update service, system recovery, reinstallation Windows, repair hardware | software<br/>
+            social commitment: active member of Repaircafe Kirchheim/Teck - device support, update service, system recovery, reinstallation Windows, repair | software<br/>
             active computer help mainly and especially for older people and fellow citizens
 
             {/* I am an active member of Repaircafe Kirchheim/Teck, where I provide device support, update service, system recovery, reinstallation of Windows, and repair of hardware and software.
