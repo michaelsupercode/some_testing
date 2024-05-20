@@ -1,0 +1,8 @@
+.experience__language {
+  margin-block-end: 0.2rem;
+  font-size: clamp(1.2rem, 0.3901rem + 3.4554vw, 3.5rem);
+}
+
+.experience__year {
+  font-size: clamp(1rem, 0.6919rem + 1.3146vw, 1.875rem);
+}

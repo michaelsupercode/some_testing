@@ -1,0 +1,7 @@
+.wrapper {
+  background-color: var(--color-primary);
+}
+
+.wrapper.dark {
+  background-color: var(--color-secondary);
+}
