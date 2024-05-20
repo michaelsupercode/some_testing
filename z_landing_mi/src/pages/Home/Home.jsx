@@ -45,65 +45,38 @@ export const Home = () => {
           <article>
             <p>
               comprehensive support for desktop devices and servers, including
-              updates, system recovery, OS re-installation, hardware and
+              updates, system recovery, OS re-installation, hardware change and
               software repair. also available for PC technology, hardware and
               network technology support. offering data recovery services and
               expertise in most internet-related issues.
             </p>
           </article>
-          <section id="space"></section>
-          <article>
-            <p>
-            german, married, 29 years proud craftsman<br/>
-            thoroughly honest | authentic | very direct | straightforward<br/>
-            social commitment: active member of Repaircafe Kirchheim/Teck - device support, update service, system recovery, reinstallation Windows, repair hardware | software<br/>
-            active computer help mainly and especially for older people and fellow citizens
 
-            I am an active member of Repaircafe Kirchheim/Teck, where I provide device support, update service, system recovery, reinstallation of Windows, and repair of hardware and software.
-I also provide computer help to older people and fellow citizens.
-            </p>
-          </article>
-        </article>
-        <article className="home__hero__image">
-          <img src="/images/portfolio.jpg" alt="" />
-        </article>
-      </section>
       <section className={darkMode ? "home__skills dark" : "home__skills"}>
         <Experience language="HTML [5]" expDate="2007-08-01" />
         <Experience language="CSS [3]" expDate="2007-08-01" />
         <Experience language="JavaScript" expDate="2021-03-01" /> 
         
-        <Experience language="Wordpress" expDate="2013-03-01" />
+        <Experience language="Wordpress" expDate="2012-03-01" />
         <Experience language="ReactJS" expDate="2021-06-01" />
-        <Experience language="Hosting" expDate="2012-06-01" />
-
-        {/* <Experience language="TailwindCSS" text="..just started.." /> */}
+        <Experience language="Hosting" expDate="2010-06-01" />
       </section>
-      {/* <section className={darkMode ? "home__projects dark" : "home__projects"}>
-        <div className="home__projects__header-container">
-          <h2>done work so far</h2>
-          <Link to="/projects">..some more..</Link>
-        </div>
-        <section className="home__projects__grid">
-          {skills.map(
-            (item, index) =>
-              index < 4 && (
-                <Link
-                  to={`/projects/${item.id}`}
-                  key={item.id}
-                  className={darkMode ? "home__projects__project dark" : "home__projects__project"}>
-                  <img className="home__projects__project-image" src={item.image} alt={item.alt} />
-                  <h3>{item.title}</h3>
-                  <div className="home__projects__project__skills">
-                    {item.skills.map((skill, index) => {
-                      return <p key={index}>{skill}</p>
-                    })}
-                  </div>
-                </Link>
-              )
-          )}
-        </section>
-      </section> */}
+          <section id="space2"></section>
+          <article>
+            <p>
+            german, married, 29 years proud craftsman<br/>
+            thoroughly honest | authentic | straightforward<br/>
+            social commitment: active member of Repaircafe Kirchheim/Teck - device support, update service, system recovery, reinstallation Windows, repair hardware | software<br/>
+            active computer help mainly and especially for older people and fellow citizens
+
+            {/* I am an active member of Repaircafe Kirchheim/Teck, where I provide device support, update service, system recovery, reinstallation of Windows, and repair of hardware and software.
+I also provide computer help to older people and fellow citizens. */}
+            </p>
+          </article>
+        </article>
+      
+      </section>
+    
     </main>
   );
 };
