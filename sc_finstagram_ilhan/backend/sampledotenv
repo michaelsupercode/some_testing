@@ -1,0 +1,13 @@
+# Frontend url
+FRONTEND_URL=
+
+# Database
+DB_URL=
+DB_NAME=
+
+# JWT
+JWT_SECRET=
+
+# GMAIL
+GMAIL_USER=
+GMAIL_PASS=
