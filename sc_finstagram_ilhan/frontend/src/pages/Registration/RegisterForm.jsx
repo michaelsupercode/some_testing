@@ -48,7 +48,7 @@ const RegisterForm = () => {
         </div>
         <div className="form-floating mb-3">
           <input value={fullname} onChange={(e) => setFullname(e.target.value)} type="text" className="form-control rounded-4" id="floatingInput" placeholder="name@example.com" autoComplete="off"/>
-          <label htmlFor="floatingInput">Vollstäntiger Name</label>
+          <label htmlFor="floatingInput">Vollständiger Name</label>
         </div>
         <div className="form-floating mb-3">
           <input value={username} onChange={(e) => setUsername(e.target.value)} type="text" className="form-control rounded-4" id="floatingInput" placeholder="name@example.com" autoComplete="off"/>

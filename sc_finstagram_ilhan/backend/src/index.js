@@ -30,13 +30,13 @@ app.use(express.json()) // body parser
 // Routes...
 
 app.get("/", (req, res) => {
-    res.send("it works :)")
+    res.send("server's runnin' fast and stable so far.. :)")
 })
 
 app.use("/api/users", userRouter) // alle users routes
 app.use("/api/posts", postsRouter) // alle posts routes
 
-app.listen(PORT, () => console.log("Server ready at", PORT))
+app.listen(PORT, () => console.log("..serving at..", PORT))
 
 
 /*
