@@ -3,3 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url(images3.jpg); 
+    background-position: center center;
+    /* background-size: cover;
+    background-position: center; */
+
+
+}
