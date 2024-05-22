@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { apiBaseUrl } from "../../api/api";
 
 const RegisterForm = () => {
