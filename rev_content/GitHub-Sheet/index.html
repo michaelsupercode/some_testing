@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Sheet</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://github.com/BorisD2023"><img src="./assets/img/png-transparent-github-kavaii-emoticon-vue-js-software-repository-black-cat-little-boy-mammal-painted-animals.png" alt="Github Cat"></a>
+            <a href="#">GitHub</a>
+            <a href="https://education.github.com/git-cheat-sheet-education.pdf">GIT CHEAT SHEET</a>
+        </nav>
+    </header>
+    <section class="intro">
+        <p>Git ist das freie und quelloffene verteilte Versionskontrollsystem, das für alles verantwortlich ist, was mit GitHub
+            zu tun hat, das lokal auf Ihrem Computer stattfindet. Dieser Spickzettel enthält die wichtigsten und am häufigsten
+            Git-Befehle zum einfachen Nachschlagen.</p>
+    </section>
+        <main>
+        <section class="installation">
+            <article>
+                <h2>Installation & Graphical User Interfaces</h2>
+                <p>Mit plattformspezifischen Installationsprogrammen für Git bietet GitHub auch die die Möglichkeit, mit den neuesten Versionen des Kommandozeilen-Tools  auf dem Laufenden zu bleiben und gleichzeitig eine grafische Benutzeroberfläche für die tägliche
+                    Interaktion, Überprüfung und Repository-Synchronisierung. </p>
+                <h3>GitHub für Windows</h3>
+                <p>htps://windows.github.com</p>
+                <h3>GitHub für Mac</h3>
+                <p>htps://mac.github.com</p>
+                <h3>Git for All Platforms</h3>
+                <p>htp://git-scm.com</p>
+            </article>
+            <article class="setup">
+                <h2>Einrichtung</h2>
+                <p>Konfigurieren von Benutzerinformationen, die in allen lokalen Repositories verwendet werden </p>
+                <div>
+                    <h4>git config --global user.name “[firstname lastname]”</h4>
+                    <p>einen Namen festzulegen, der bei der Überprüfung des Versionsverlaufs für die Anerkennung identifizierbar ist</p>
+                    <h4>git config --global user.email “[valid-email]”</h4>
+                    <p>eine E-Mail-Adresse festlegen, die mit jeder Verlaufsmarkierung verknüpft werden soll</p>
+                    <h4>git config --global color.ui auto</h4>
+                    <p>automatische Einfärbung der Befehlszeile für Git zur leichteren Überprüfung einstellen</p>
+                </div>
+                <h2>Einrichtung & Inbetriebnahme</h2>
+                <p>Konfigurieren von Benutzerinformationen, Initialisieren und Klonen von Repositories</p>
+                <div>
+                    <h4>git init</h4>
+                    <p>initialize an existing directory as a Git repository</p>
+                    <h4>git clone [url]</h4>
+                    <p>retrieve an entire repository from a hosted location via URL</p>
+                </div>
+            </article>
+            <article>
+                <h2>Etappe & Schnappschuss</h2>
+                <p>Arbeiten mit Snapshots und dem Git-Speicherbereich </p>
+                <div>
+                    <h4>git status</h4>
+                    <p>geänderte Dateien im Arbeitsverzeichnis anzeigen, die für die nächste Übertragung bereitgestellt werden</p>
+                    <h4>git add [file]</h4>
+                    <p>fügt eine Datei so, wie sie jetzt aussieht, zu Ihrer nächsten Übertragung hinzu (stage)</p>
+                    <h4>git reset [file]</h4>
+                    <p>eine Datei zurücksetzen und dabei die Änderungen im Arbeitsverzeichnis beibehalten</p>
+                    <h4>git diff</h4>
+                    <p>Diff der geänderten, aber nicht ausgelagerten Dateien</p>
+                    <h4>git diff --staged</h4>
+                    <p>diff der Änderungen, die bereitgestellt, aber noch nicht übertragen wurden</p>
+                    <h4>git commit -m “[descriptive message]”</h4>
+                    <p>den bereitgestellten Inhalt als neuen Commit-Snapshot übertragen</p>
+                </div>
+            </article>
+            <article>
+                <h2>Verzweigen & Zusammenführen</h2>
+                <p>Arbeiten mit Snapshots und dem Git-Speicherbereich </p>
+                <div>
+                    <h4>git branch</h4>
+                    <p>listet Ihre Zweige auf. Neben dem derzeit aktiven Zweig wird ein * angezeigt</p>
+                    <h4>git branch [branch-name]</h4>
+                    <p>erstellt einen neuen Zweig mit dem aktuellen Commit</p>
+                    <h4>git checkout</h4>
+                    <p>wechselt zu einem anderen Zweig und checkt ihn in Ihr Arbeitsverzeichnis aus</p>
+                    <h4>git merge [branch]</h4>
+                    <p>fügt die Historie des angegebenen Zweigs in den aktuellen Zweig ein</p>
+                    <h4>git log</h4>
+                    <p>zeigt alle Übertragungen in der Historie des aktuellen Zweigs an</p>
+                </div>
+                <h2>Prüfen & Vergleichen</h2>
+                <p>Prüfung von Protokollen, Diffs und Objektinformationen</p>
+                <div>
+                    <h4>git log</h4>
+                    <p>zeigt den Verlauf der Übertragungen für den aktuellen Zweig an</p>
+                    <h4>git log branchB..branchA</h4>
+                    <p>zeigt die Übertragungen in ZweigA an, die sich nicht in ZweigB befinden</p>
+                    <h4>git log --follow [file]</h4>
+                    <p>zeigt die Übertragungen an, die die Datei geändert haben, auch über Umbenennungen hinweg</p>
+                    <h4>git diff branchB...branchA</h4>
+                    <p>zeigt den Unterschied zwischen BranchA und BranchB an</p>
+                    <h4>git show [SHA]</h4>
+                    <p>zeigt jedes Objekt in Git in menschenlesbarem Format an</p>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="share">
+                <h2>Teilen & Aktualisieren</h2>
+                <p>Abrufen von Aktualisierungen aus einem anderen Repository und Aktualisieren lokaler Repos</p>
+                <div>
+                    <h4>git log</h4>
+                    <p>Hinzufügen einer Git-URL als Alias</p>
+                    <h4>git log branchB..branchA</h4>
+                    <p>holt alle Zweige von diesem Git-Remote ab</p>
+                    <h4>git log --follow [file]</h4>
+                    <p>einen entfernten Zweig mit dem aktuellen Zweig zusammenführen, um ihn auf den neuesten Stand zu bringen</p>
+                    <h4>git diff branchB...branchA</h4>
+                    <p>Übertragen von Übertragungen des lokalen Zweigs an den Zweig des entfernten Repositorys</p>
+                    <h4>git show [SHA]</h4>
+                    <p>holt alle Übertragungen aus dem entfernten Zweig und führt sie zusammen</p>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
