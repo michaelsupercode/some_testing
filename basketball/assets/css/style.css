@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 img {
   width: 120%;
   height: max-content;
@@ -13,4 +12,17 @@ img {
 #board {
     width: 100%;
     margin-top: -2vh;
+}
+
+#sHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sAway {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
 }
