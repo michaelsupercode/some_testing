@@ -36,4 +36,4 @@ app.post('/register', (req, res) => {
     registerUserService(firstName, lastName, newEmail, newPass)
 })
 const PORT = 8080
-app.listen(PORT, () => { console.log("on: ", PORT) })
+app.listen(PORT, () => { console.log("serving Ure shit at ", PORT) })
